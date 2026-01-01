@@ -9,6 +9,7 @@ import { PiExportBold } from "react-icons/pi";
 import { ImNewTab } from "react-icons/im";
 import { FiRefreshCcw } from "react-icons/fi";
 import { GoogleGenAI } from "@google/genai";
+import.meta.env.VITE_GOOGLE_API_KEY;
 import { ClipLoader } from "react-spinners";
 import { toast } from "react-toastify";
 
@@ -39,7 +40,7 @@ function Home() {
 
   // API Key (you said you want it inside the file)
   const ai = new GoogleGenAI({
-    apiKey: "YOUR_API_KEY",
+    apiKey: "AIzaSyCUyyaKtD-ZhWmv6e4_yEMkaku4QfNKun0",
   });
 
   // Generate code
