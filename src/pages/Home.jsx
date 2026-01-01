@@ -9,7 +9,6 @@ import { PiExportBold } from "react-icons/pi";
 import { ImNewTab } from "react-icons/im";
 import { FiRefreshCcw } from "react-icons/fi";
 import { GoogleGenAI } from "@google/genai";
-import.meta.env.VITE_GOOGLE_API_KEY;
 import { ClipLoader } from "react-spinners";
 import { toast } from "react-toastify";
 
